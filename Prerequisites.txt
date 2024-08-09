@@ -1,0 +1,33 @@
+# Prerequisites
+Install Nmap: Make sure Nmap is installed on your system. You can verify the installation by running the command:
+nmap --version
+
+Python Installation: Ensure you have Python installed on your system. You can verify this by running:
+python --version
+
+Running the Script
+Save the Script: Save the WebVulnScan script to a file, e.g., webvulnscan.py.
+
+Open Terminal/Command Prompt: Navigate to the directory where the script is saved.
+
+Execute the Script: Run the script using Python:
+python webvulnscan.py
+
+Provide Input:
+Enter URL/IP: When prompted, enter the URL or IP address of the web application you want to scan.
+
+Choose Scan Type: Select the type of scan by entering the corresponding number:
+1 for a Stealth Scan
+2 for an Aggressive Scan
+
+View Results: The script will execute the selected Nmap scan and display the results in the console.
+
+Notes
+Administrative Privileges: Some scans may require elevated privileges. Run the script with administrator rights if needed (e.g., using sudo on Unix systems).
+
+Legal and Ethical Considerations: Only scan applications for which you have explicit permission. Unauthorized scanning may violate legal and ethical guidelines.
+
+Customization
+The script can be customized by modifying the Nmap command options to suit specific requirements, such as targeting specific ports or services.
+
+You can add additional scanning modes by expanding the script with more Nmap command variations.
