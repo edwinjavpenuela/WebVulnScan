@@ -7,19 +7,15 @@ python --version
 
 Running the Script
 Save the Script: Save the WebVulnScan script to a file, e.g., webvulnscan.py.
-
 Open Terminal/Command Prompt: Navigate to the directory where the script is saved.
-
 Execute the Script: Run the script using Python:
 python webvulnscan.py
 
 Provide Input:
 Enter URL/IP: When prompted, enter the URL or IP address of the web application you want to scan.
-
 Choose Scan Type: Select the type of scan by entering the corresponding number:
-1 for a Stealth Scan
-2 for an Aggressive Scan
-
+  1 for a Stealth Scan
+  2 for an Aggressive Scan
 View Results: The script will execute the selected Nmap scan and display the results in the console.
 
 Notes
