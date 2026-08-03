@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "webvulnscan"
+version = "0.2.0"
+description = "Defensive Nmap-based web vulnerability scanning CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "sr-maximus" }]
+dependencies = []
+
+[project.scripts]
+webvulnscan = "analisis_vulnerabilidades:main"
+
+[tool.setuptools]
+py-modules = ["analisis_vulnerabilidades"]
